@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.titulo {
+  font-size: 5em;
+  bottom: -40px;
+  letter-spacing: 0.15em;
+  position: absolute;
+}
+
+.fundo {
+  position: absolute;
+  animation: rubberBand 2s infinite;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fugindo 5s linear forwards;
+  animation-delay: 4s;
+}
+
+.container .Ring {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: -30px;
+
+  border-radius: 50%;
+  animation: anima 4s linear infinite;
+}
+
+@keyframes anima {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container .Ring:nth-child(2) {
+  animation: anima2 4s linear infinite;
+}
+
+.container .Ring:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  bottom: 24px;
+  left: 24px;
+  height: 30px;
+  border-top: #24ecff;
+  border-radius: 75%;
+  background: #24ecff;
+  box-shadow: 0 0 0 5px #24ecff55, 0 0 0 10px #24ecff45, 0 0 0 15px #24ecff25;
+}
+
+.container .Ring:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  bottom: 24px;
+  left: 24px;
+  height: 30px;
+  border-radius: 75%;
+  background: #93ff2d;
+  box-shadow: 0 0 0 5px #93ff2d55, 0 0 0 10px #93ff2d45, 0 0 0 15px #93ff2d25;
+}
+
+@keyframes anima2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.container .Ring:nth-child(3) {
+  position: absolute;
+  top: -50px;
+  animation: anima3 4s infinite linear;
+  animation-delay: -1s;
+
+}
+
+@keyframes anima3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.container .Ring:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  bottom: 24px;
+  left: 24px;
+  height: 30px;
+  border-radius: 75%;
+  background: #d52dff;
+  box-shadow: 0 0 0 5px #d52dff55, 0 0 0 10px #d52dff45, 0 0 0 15px #d52dff25;
+}
+
+.container p {
+  position: absolute;
+  font-size: 2em;
+  bottom: -40px;
+  letter-spacing: 0.15em;
+}

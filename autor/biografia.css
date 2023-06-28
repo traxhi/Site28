@@ -1,0 +1,96 @@
+.nomeAutor {
+    font-size: 40px;
+    text-align: left;
+    margin-top: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bioAutor {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.autorImg {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+
+.botao1 {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+
+button {
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    font-size: 13px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7844DB;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}
+
+.D3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.linha {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    flex-direction: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.D1 {
+    width: 1000px;
+    height: 50px;
+
+}
+
+.D2 {
+    margin-top: 50px;
+    width: 520px;
+
+}
+
+.autorImg {
+    position: absolute ;
+}

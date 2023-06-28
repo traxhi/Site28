@@ -1,0 +1,191 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+    * {
+        margin: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: #FEFFF5;
+    }
+
+    .a {
+        color: black;
+    }
+
+    .teto {
+        position: fixed;
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    .subir {
+        animation: sobe 1s forwards;
+    }
+
+    @keyframes sobe {
+        0% {
+            margin-top: 0px;
+        }
+
+        100% {
+            margin-top: -100px;
+        }
+    }
+
+    .descer {
+        animation: desce 1s forwards;
+    }
+
+    @keyframes desce {
+        0% {
+            margin-top: -100px;
+        }
+
+        100% {
+            margin-top: 0px;
+        }
+    }
+
+    .invisivel2 {
+        position: fixed;
+        opacity: 0;
+        margin-left: 47%;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        background-color: transparent;
+
+    }
+
+    .invisivel2:hover {
+        animation: abrindo1 1s linear forwards;
+    }
+
+    @keyframes abrindo1 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .flecha {
+        width: 15%;
+        height: 15%;
+    }
+
+    .gira1 {
+        animation: giraa 1s forwards;
+    }
+
+    @keyframes giraa {
+        0% {
+            rotate: 0deg;
+        }
+
+        100% {
+            rotate: 180deg;
+        }
+    }
+
+    .gira2 {
+        animation: girab 1s forwards;
+    }
+
+    @keyframes girab {
+        0% {
+            rotate: 180deg;
+        }
+
+        100% {
+            rotate: 0deg;
+        }
+    }
+
+    body {
+        animation: abrindo 2s;
+    }
+
+    @keyframes abrindo {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .escrita:hover {
+        cursor: pointer;
+        color: blueviolet;
+    }
+
+    .escrita {
+        width: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .invisivel {
+        width: 20%;
+        height: 100%;
+    }
+
+    .tetao {
+        width: 35%;
+        height: 100%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .carrinho {
+        width: 30px;
+    }
+</style>
+<div class="teto" id="teto">
+    <a href="../principais/principal.php"><img src="../imagens/ScriptStorm.png" height="70" width="200"></a>
+    <div class="invisivel"></div>
+    <div class="tetao">
+        <a class="a" href="../principais/principal.php">
+            <div class="escrita">Início</div>
+        </a>
+        <a class="a" href="../itens&produtos/textos.php">
+            <div class="escrita">Textos</div>
+        </a>
+        <a class="a" href="../autor/autores.php">
+            <div class="escrita">Autores</div>
+        </a>
+        <a class="a" href="../itens&produtos/publicar.php">
+            <div class="escrita">Publicar</div>
+        </a>
+        <a class="a" href="../principais/duvidas.php">
+            <div class="escrita">Dúvidas</div>
+        </a>
+        <a class="a" href="../itens&produtos/leituras.php">
+            <div class="escrita">Leituras</div>
+        </a>
+        <a href="../cadastro&login/perfil.php"><img src="../imagens/Perfil2.png" width="40px"></a>
+    </div>
+</div>
+<br>
+<div class="invisivel2">
+    <img src="../imagens/flecha.png" class="flecha" id="flecha" onclick="Mudarestado2('flecha'); Mudarestado('teto')">
+</div>

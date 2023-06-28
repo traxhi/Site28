@@ -1,0 +1,75 @@
+.embaixo {
+    margin-left: 550px;
+    margin-top: 200px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.insira {
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Codigo {
+    margin-top: 100px;
+    width: 90%;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.reenviar {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: none;
+    border: none;
+    background-color: none;
+}
+
+.Codigo:focus {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.botao1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    color: black;
+    width: 400px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+}
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}

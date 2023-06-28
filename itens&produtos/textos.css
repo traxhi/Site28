@@ -1,0 +1,111 @@
+.pesquisa {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 8vh;
+}
+
+.filtro {
+    font-size: 16px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.filtrosss {
+    width: 120px;
+    border: solid 1px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #FEFFF5;
+}
+.barra {
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.textin {
+    height: 50%;
+    width: 80%;
+}
+
+.lupinha {
+    left: 10px;
+}
+
+.lupinha:hover {
+    cursor: pointer;
+}
+
+#txtBusca {
+    float: left;
+    color: aliceblue;
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 16px;
+    border: none;
+    height: 32px;
+    width: 70%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.produtos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+.img{
+    margin-top: 10px;
+}
+.botaoler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: none;
+    background-color: #7844DB; 
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.botaoler:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}

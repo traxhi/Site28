@@ -1,0 +1,147 @@
+
+
+.pesquisa {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 8vh;
+}
+
+.barra {
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#txtBusca {
+    float: left;
+    color: aliceblue;
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 70%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.produtos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+
+}
+
+.itens1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    height: 600px;
+    margin-bottom: 8vh;
+    width: 90%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.botaover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+    background-color: #7844DB;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.botaover:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}
+
+.mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 10%;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 45%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mais:hover {
+    cursor: pointer;
+    color: #4d0fc1;
+    font-weight: bold;
+}
+
+.lupinha:hover {
+    cursor: pointer;
+}

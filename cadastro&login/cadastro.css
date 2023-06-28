@@ -1,0 +1,95 @@
+.botao1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.cadastro {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30%;
+    width: 40%;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.linha {
+    width: 80%;
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+
+}
+
+.linha:focus {
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+
+button {
+    color: black;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c2d357;
+    cursor: pointer;
+}
+
+.botao {
+    color: black;
+    width: 85%;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: #c2d357;
+    cursor: pointer;
+}
+.alerta{
+    color: red;
+}

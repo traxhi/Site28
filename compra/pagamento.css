@@ -1,0 +1,62 @@
+.embaixo {
+    margin-left: 560px;
+    width: 30%;
+    height: 50vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.pergunta {
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.opcoes {
+    height: 60%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.op {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 400px;
+    margin-left: 90px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    color: black;
+    width: 400px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+}
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}

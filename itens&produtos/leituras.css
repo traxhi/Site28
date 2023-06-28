@@ -1,0 +1,145 @@
+
+.pesquisa {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 8vh;
+}
+
+.filtro {
+    margin-top: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.filtrosss {
+    width: 120px;
+    border: solid 1px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #FEFFF5;
+}
+
+.barra {
+    margin-top: 150px;
+    display: flex;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+#txtBusca {
+    float: left;
+    color: aliceblue;
+    background-color: transparent;
+    padding-left: 5%;
+    font-size: 16px;
+    border: none;
+    height: 32px;
+    width: 70%;
+}
+
+.textin {
+    height: 50%;
+    width: 80%;
+}
+
+.lupinha {
+    left: 10px;
+}
+
+.lupinha:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.produtos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+}
+
+.itens1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    height: 600px;
+    margin-bottom: 5vh;
+    width: 90%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    border-color: black;
+
+}
+
+.botaoler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 30px;
+    width: 90px;
+    background-color: #7844DB;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.botaoler:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}

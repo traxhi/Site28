@@ -1,0 +1,110 @@
+.tag {
+    font-size: 13px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #4d0fc1;
+}
+
+.descricao {
+    font-size: 13px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.imagem2 {
+    justify-content: left;
+    justify-items: left;
+    align-items: left;
+
+}
+
+.botao1 {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 38%;
+    background-color: #7844DB;
+    width: 25%;
+    font-size: 16px;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: bold;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7844DB;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+}
+
+.linha {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+
+}
+
+.linha2 {
+    overflow: visible;
+    margin-top: 5%;
+    width: 100%;
+    height: 20vh;
+    text-align: left;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 13px;
+
+}
+
+.D1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.D3 {
+    width: 250px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.estrelas {
+    margin-top: 5%;
+}
+
+.estrela {
+    cursor: pointer;
+}

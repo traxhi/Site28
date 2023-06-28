@@ -1,0 +1,403 @@
+body{
+    overflow: hidden
+}
+.pedro {
+    height: 70px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.embaixo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    width: 70%;
+    height: 80vh;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.retan1 {
+    width: 475px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.retan2 {
+    width: 475px;
+    height: 100%;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.retan3 {
+    width: 475px;
+    height: 80%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Dados {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.numero {
+    height: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+
+.Numero {
+    height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+.valicode {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.validade {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vali {
+    height: 30px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+
+.CVV {
+    height: 20px;
+    width: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+
+.codigo {
+    margin-left: 135px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+.Nome {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nome {
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+
+.cpf {
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px;
+
+}
+
+.CPF {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.teda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.tele {
+    border: solid 1px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+
+.data {
+    margin-left: 135px;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.para {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.opc {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+
+.borda {
+    width: 450px;
+    height: 400px;
+}
+
+.parte1 {
+    width: 100%;
+    height: 12%;
+    border: solid;
+    font-weight: bold;
+    border-color: rgb(175, 138, 218);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.parte2 {
+    width: 100%;
+    height: 22%;
+    border: solid;
+    border-color: rgb(175, 138, 218);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.parte3 {
+    width: 100%;
+    height: 22%;
+    border: solid;
+    border-color: rgb(175, 138, 218);
+    display: flex;
+    flex-direction: column;
+}
+
+.parte4 {
+    width: 100%;
+    height: 22%;
+    border: solid;
+    border-color: rgb(175, 138, 218);
+}
+
+.parte5 {
+    width: 100%;
+    height: 22%;
+    border: solid;
+    border-color: rgb(175, 138, 218);
+}
+
+.ass {
+    font-size: 15px;
+    display: flex;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.gran {
+    display: flex;
+    margin-right: 150px;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.excrita {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.num {
+
+    display: flex;
+    margin-top: 70px;
+    margin-left: 65px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.mini {
+    width: 45px;
+    height: 20px;
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.ca {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.forma {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.cc {
+    font-size: 17px;
+    margin-top: 9px;
+    margin-left: 5px;
+
+}
+
+.tempo {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.util {
+    font-size: 17px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.parte5 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 195, 247);
+}
+
+.ult1 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: rgb(216, 195, 247);
+}
+
+.ult2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(216, 195, 247);
+}
+
+.totall {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-weight: bold;
+    background-color: rgb(216, 195, 247);
+}
+
+.deze {
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 3px;
+    background-color: rgb(216, 195, 247);
+}
+
+button {
+    color: black;
+    width: 400px;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #CFE15D;
+}
+
+
+button:hover {
+    background-color: #4d0fc1;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.date {
+    height: 30px;
+    width: 70px;
+}
+
+.cartao {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.nascimento {
+    display: flex;
+}

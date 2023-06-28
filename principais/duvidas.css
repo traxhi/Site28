@@ -1,0 +1,81 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.caixa{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+img:hover
+{
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.nome{
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+.email{
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+.msg{
+    height: 80px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #CFE15D;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7844DB;
+    color: white;
+}
+.lgpd
+{
+    position: absolute;
+    left: 83%;
+    top: 95%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.lgpd:hover{
+    cursor: pointer;
+}
